@@ -1,7 +1,7 @@
 string=""
 x=1
-j=600000
-while [ $x -le 5 ]
+j=700000
+while [ $x -le 50 ]
 do
  string="touch randfile$((j+x)) && git add . && git commit -m '$((j+x)):randfile_$((j+x))'"
  echo $string
